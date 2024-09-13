@@ -34,7 +34,7 @@ void main()
             	{
             		if(Local_counter==0)
             		{
-            			clearCLCD();
+            			CLCD_voidClearDisplay();
             	        Local_counter = 0;
             	        Result=0;
             	        Local_au8operation[0]='\0';

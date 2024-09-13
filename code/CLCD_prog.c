@@ -210,3 +210,14 @@ uint8 Local_ErrState=OK;
 	}
 	return Local_ErrState;
 }
+void CLCD_voidClearDisplay(void)
+{
+	for(uint8 x=0;x<16;x++)
+	{
+		for(uint8 x=0;x<16;x++)
+		{
+			CLCD_voidSendData(' ');
+		}
+	}
+}
+

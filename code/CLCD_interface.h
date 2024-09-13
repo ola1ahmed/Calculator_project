@@ -12,5 +12,5 @@ uint8 CLCD_u8SendString(const char* Copy_u8PchString);
 sint32 CLCD_u8SendNumber(sint32 Copy_s32number);
 void voidGotoXY(uint8 Copy_u8Xposition,uint8 Copy_u8Yposition);
 uint8 CLCD_u8SendSpecialChar(uint8 Copy_u8Location_num,uint8 *Copy_pu8Pattern ,uint8 Copy_u8Xposition,uint8 Copy_u8Yposition);
-
+void CLCD_voidClearDisplay(void);
 #endif
